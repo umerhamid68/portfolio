@@ -741,3 +741,28 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+
+
+.contact-section {
+  position: relative !important;
+  padding-top: 140px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.contact-form-row .form-control {
+  background-color: #2b2e38;
+  color: #dcdcdc;
+}
+
+.contact-form-row .form-control::placeholder {
+  color: #a9a9a9;
+}
+
+.contact-form-row .form-label {
+  margin-bottom: 10px;
+  color: #dcdcdc;
+}
